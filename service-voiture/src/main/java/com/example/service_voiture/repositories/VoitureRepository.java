@@ -1,0 +1,8 @@
+package com.example.service_voiture.repositories;
+
+import com.example.service_voiture.entities.Voiture;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VoitureRepository  {
+
+}
