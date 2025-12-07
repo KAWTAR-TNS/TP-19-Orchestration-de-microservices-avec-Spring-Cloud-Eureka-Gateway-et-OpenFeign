@@ -24,6 +24,5 @@ public class Voiture {
     private Long id_client;
 
     @Transient
-    @ManyToOne
     private Client client;
 }

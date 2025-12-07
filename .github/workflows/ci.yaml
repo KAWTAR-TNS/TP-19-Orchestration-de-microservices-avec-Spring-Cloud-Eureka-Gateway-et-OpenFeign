@@ -13,6 +13,7 @@ jobs:
     strategy:
       matrix:
         service:
+          - service-voiture
           - Client
           - Gateway
           - eureka server

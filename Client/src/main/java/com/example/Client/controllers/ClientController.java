@@ -16,7 +16,7 @@ public class ClientController {
         return clientRepository.findAll();
     }
 
-    @GetMapping("/client/{id}")
+    @GetMapping("/clients/{id}")
     public Client findById(@PathVariable Long id) throws Exception {
         return clientRepository.findById(id)
                 .orElseThrow(() -> new Exception("Client non trouvé"));
